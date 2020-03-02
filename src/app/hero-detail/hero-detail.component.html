@@ -7,6 +7,10 @@
       <input [(ngModel)]="hero.name" placeholder="name"/>
     </label>
   </div>
+  <div>
+    <span>Age: </span>{{hero.age}} years old
+    <button (click)="addYear()">Add a year</button>
+  </div>
 </div>
 
 <app-click-me></app-click-me>

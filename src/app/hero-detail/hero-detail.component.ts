@@ -28,4 +28,9 @@ export class HeroDetailComponent implements OnInit {
     this.location.back();
   }
 
+  addYear(): number {
+    this.hero.age += 1;
+    return this.hero.age;
+  }
+
 }
