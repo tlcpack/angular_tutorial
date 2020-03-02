@@ -33,4 +33,9 @@ export class HeroDetailComponent implements OnInit {
     return this.hero.age;
   }
 
+  calculateDogYears(): void {
+    const dogYears = this.hero.age / 7;
+    alert(dogYears);
+  }
+
 }
